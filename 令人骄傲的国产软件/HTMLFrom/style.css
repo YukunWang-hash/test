@@ -1,0 +1,176 @@
+*{
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    font-family: 'Tohoma';
+}
+.top_display{
+    width:650px;
+    height: 40px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    transition: all 0.5s;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    margin:30px;
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+li a{
+    width:100px;
+    height:30px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    font-family: "等线";
+    color: white;
+    transition: all 0.5s;
+}
+li a:hover{
+    color: chartreuse;
+    border-radius: 10px;
+    border:none;
+    background-color: darkgray;
+    transition: all 0.5s;
+}
+li a:active{
+    color: rgb(105, 202, 8);
+    background-color: rgb(107, 105, 105);
+    transition: all 0.5s;
+}
+#top{
+    width: 100%;
+    height:50px;
+    position:fixed;
+    top: 0px;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 2px 2px 20px black;
+    margin: 0px auto;
+}
+input,select,textarea{
+    outline:none;
+}
+.title{
+    display:inline-block;
+    text-align: right;
+    width:100px;
+    /* border: 1px solid red; */
+}
+body{
+    background-image: url(CityFooters.jpg);
+    background-size: 100% auto;
+    transition: all 0.5s;
+}
+#container{
+    width: 500px;
+    margin:50px auto;
+    padding:50px;
+    background-color: rgba(255, 255, 255, 0.856);
+    box-shadow: 2px 2px 10px skyblue;
+    border-radius: 2%;
+    /* border: 1px solid black; */
+}
+#select_box{
+    width:300px;
+    height:52px;
+    /* border:1px solid gray; */
+    border-radius:10px;
+    line-height:30px;
+    padding: 15px;
+    margin:30px auto;
+    box-shadow: 2px 2px 8px gray;
+    background-color: rgb(243, 240, 240);
+    transition:all 0.5s;
+}
+#select_box:hover{
+    /* border:3px solid skyblue; */
+    background-color: white;
+    box-shadow:2px 2px 8px skyblue;
+    transition: all 0.5s;
+}
+#select_box:active{
+    border:1px solid rgb(0, 152, 179);
+    background-color: white;
+    transition: all 0.5s;
+}
+.text_area{
+    width:300px;
+    height:100px;
+    border-radius: 10px;
+    box-shadow:2px 2px 8px gray;
+    background-color: rgb(243, 240, 240);
+    /* border: 1px solid gray; */
+    transition: all 0.5s;
+}
+.text_area:hover{
+    /* border: 3px solid skyblue; */
+    background-color: white;
+    box-shadow:2px 2px 8px skyblue;
+    transition: all 0.5s;
+}
+.input_box{
+    width:300px;
+    height:20px;
+    /* border: 1px solid gray; */
+    background-color: rgb(243, 240, 240);
+    border-radius:10px;
+    box-shadow: 2px 2px 8px gray;
+    padding:20px;
+    margin:30px auto;
+    font-style:italic;
+    transition:all 0.5s;
+}
+.input_box:active{
+    border: 3px solid skyblue;
+    transition: all 0.5s;
+    background-color: white;
+    box-shadow:2px 2px 8px skyblue;
+    color: skyblue;
+}
+.input_box:hover{
+    /* border: 3px solid skyblue; */
+    transition: all 0.5s;
+    background-color: white;
+    box-shadow:2px 2px 8px skyblue;
+    color: skyblue;
+}
+.input_box:visited{
+    /* border: 3px solid skyblue; */
+    transition: all 0.5s;
+    background-color: rgb(243, 240, 240);
+    box-shadow:2px 2px 8px skyblue;
+    color: skyblue;
+}
+.inside_box p{
+    margin:50px auto;   
+}
+.btn{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    font-size:16px;
+    /* border:1px solid gray; */
+    background: white;
+    margin:10px auto;
+    padding:10px;
+    transition:all 0.5s;
+}
+.btn:hover{
+    background: rgb(79, 205, 255);
+    color:white;
+    box-shadow:2px 2px 8px skyblue;
+    transition: all 0.5s;
+}
+.btn:active{
+    background: rgb(86, 174, 209);;
+    color:rgba(204, 203, 203);
+    box-shadow:2px 2px 8px skyblue;
+    transition: all 0.5s;
+}

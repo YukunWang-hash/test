@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript">
+        function openwin(){
+            window.open("exerciseFrom2.html","newwindow","height=100, width=400,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no");
+        }
+    </script>
+    <title>From exercise</title>
+</head>
+<body>
+    <div id="top">
+        <div class="top_display">
+            <ul>
+                <li><a href="exerciseFrom.html">登录</a></li>
+                <li><a href="../index.html">百科</a></li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">访问</a></li>
+                <li><a href="#">漫游</a></li>
+            </ul>
+        </div>
+    </div>
+        <div id="container">
+            <form action="#" method="POST">
+                <p><span class="title">name:&nbsp;&nbsp;</span><input type="text" name="" placeholder="Your name" class="input_box"/></p>
+                <p><span class="title">Tel:&nbsp;&nbsp;</span><input type="text" name="" placeholder="Your telephone number" class="input_box"/></p>
+                <p><span class="title">Sex:&nbsp;&nbsp;</span><span class="title">Male:</span><input type="radio" name="Sex" value="Male" checked/>
+                    <span class="title">Female:</span><input type="radio" name="Sex" value="Female"/></p>
+                <p>
+                    <span class="title">Province:</span>
+                    <select name="1" id="select_box">
+                        <option value="1" selected="selected">HeBei</option>
+                        <option value="2">ShanDong</option>
+                        <option value="3">HeNan</option>
+                        <option value="4">ShanXi</option>
+                    </select>
+                </p>
+                <p><span class="title">Book Likes</span><span class="title">History</span><input type="checkbox" name="Book_likes" value="History">
+                    <span class="title">Story</span><input type="checkbox" name="Book_likes" value="Story">
+                    <span class="title">Films</span><input type="checkbox" name="Book_likes" value="Films">
+                </p>
+                <br>
+                <p>
+                    <span class="title">P.E.:</span>
+                    <textarea cols="30" rows="10" class="text_area"></textarea>
+                </p>
+                <button class="btn" onclick="openwin()">Regeiter</button>
+            </form>
+        </div>
+</body>
+</html>
